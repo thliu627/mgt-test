@@ -28,7 +28,7 @@ public class MgtLoginTest extends AbstractMgtTests {
 
     protected void execute() throws InterruptedException {
         pageHandle.open();
-        loginHandle.login("liuanqi@sunmi.com", "sunmi388");
+        loginHandle.login("", "");
         pageHandle.sleep(3);
         asideHandle.getMenu("其它管理", "内部数据订阅管理");
         pageHandle.sleep(2);
